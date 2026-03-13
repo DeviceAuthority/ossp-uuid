@@ -33,13 +33,13 @@ extern _uuid_version_t _uuid_version;
 
 _uuid_version_t _uuid_version = {
     0x106202,
-    "1.6.2",
-    "1.6.2 (04-Jul-2008)",
-    "This is OSSP uuid, Version 1.6.2 (04-Jul-2008)",
-    "OSSP uuid 1.6.2 (04-Jul-2008)",
-    "OSSP uuid/1.6.2",
-    "@(#)OSSP uuid 1.6.2 (04-Jul-2008)",
-    "$Id: OSSP uuid 1.6.2 (04-Jul-2008) $"
+    "1.6.3",
+    "1.6.3 (13-Mar-2026)",
+    "This is OSSP uuid, Version 1.6.3 (13-Mar-2026)",
+    "OSSP uuid 1.6.3 (13-Mar-2026)",
+    "OSSP uuid/1.6.3",
+    "@(#)OSSP uuid 1.6.3 (13-Mar-2026)",
+    "$Id: OSSP uuid 1.6.3 (13-Mar-2026) $"
 };
 
 #endif /* _UUID_VERS_H_AS_HEADER_ */
