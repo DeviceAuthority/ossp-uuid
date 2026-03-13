@@ -149,7 +149,10 @@ prng_rc_t prng_data(prng_t *prng, void *data_ptr, size_t data_len)
 #if defined(WIN32)
     else {
         if (CryptAcquireContext(&hProv, NULL, NULL, PROV_RSA_FULL, 0))
+        {
             CryptGenRandom(hProv, n, p);
+            CryptReleaseContext(hProv, 0);
+        }
     }
 #endif
 
